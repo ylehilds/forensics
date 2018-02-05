@@ -25,6 +25,23 @@
         <!--</v-card-actions>-->
       </v-card>
     </v-flex>
+
+    <br />
+    <v-flex>
+      <v-card>
+        <v-card-title primary-title>
+          <div>
+            <h3 class="headline mb-0">PsList</h3>
+            <br />
+            <div>Description</div>
+            <div>Personal review</div>
+            <div>Personal notes on usage</div>
+            <div>Source URL</div>
+            <div>Local Source</div>
+          </div>
+        </v-card-title>
+      </v-card>
+    </v-flex>
   </div>
 </template>
 
