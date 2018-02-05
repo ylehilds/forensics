@@ -17,6 +17,8 @@
       <!--</v-content>-->
       <!--<v-footer app></v-footer>-->
     <!--</v-app>-->
+    <!--https://vuetifyjs.com/vuetify/quick-start-->
+    <!--https://material.io/icons/-->
     <v-app id="inspire">
       <v-navigation-drawer
         fixed
@@ -34,7 +36,7 @@
           </v-list-tile>
           <v-list-tile v-on:click="routeToGo('PacketAnalysis')">
             <v-list-tile-action>
-              <v-icon>contact_mail</v-icon>
+              <v-icon>search</v-icon>
             </v-list-tile-action>
             <v-list-tile-content>
               <v-list-tile-title>Packet Analysis</v-list-tile-title>
