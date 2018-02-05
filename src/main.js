@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import RouterNav from 'vue-router-nav'
-import VueTreeNavigation from 'vue-tree-navigation';
+import VueTreeNavigation from 'vue-tree-navigation'
 import Vuetify from 'vuetify'
 
 import('../node_modules/vuetify/dist/vuetify.min.css')

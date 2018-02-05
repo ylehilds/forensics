@@ -2,24 +2,72 @@
   <div id="app">
     <!--<vue-tree-navigation :items="items" :defaultOpenLevel="defaultOpenLevel" />-->
     <!--<router-nav/><router-view/>-->
-    <v-app>
-      <v-navigation-drawer app>
-        <router-link class="list-group-item" to="/">Hello World</router-link>
-        <router-link class="list-group-item" to="/PacketAnalysis">Hello World</router-link>
+    <!--<v-app>-->
+      <!--<v-navigation-drawer app>-->
+        <!--<router-link class="list-group-item" to="/">Hello World</router-link>-->
+        <!--<router-link class="list-group-item" to="/PacketAnalysis">Hello World</router-link>-->
+      <!--</v-navigation-drawer>-->
+      <!--<v-toolbar app></v-toolbar>-->
+      <!--<v-content>-->
+        <!--<v-container fluid>-->
+          <!--<router-view></router-view>-->
+          <!--&lt;!&ndash;<router-nav/><router-view/>&ndash;&gt;-->
+          <!--&lt;!&ndash;<vue-tree-navigation :items="items" :defaultOpenLevel="defaultOpenLevel" />&ndash;&gt;-->
+        <!--</v-container>-->
+      <!--</v-content>-->
+      <!--<v-footer app></v-footer>-->
+    <!--</v-app>-->
+    <v-app id="inspire">
+      <v-navigation-drawer
+        fixed
+        v-model="drawer"
+        app
+      >
+        <v-list dense>
+          <v-list-tile v-on:click="routeToGo('/')">
+            <v-list-tile-action>
+              <v-icon>home</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Home</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile v-on:click="routeToGo('PacketAnalysis')">
+            <v-list-tile-action>
+              <v-icon>contact_mail</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Packet Analysis</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+        </v-list>
       </v-navigation-drawer>
-      <v-toolbar app></v-toolbar>
+      <v-toolbar color="indigo" dark fixed app>
+        <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+        <v-toolbar-title>IT566 - Digital Forensics</v-toolbar-title>
+      </v-toolbar>
       <v-content>
-        <v-container fluid>
-          <router-view></router-view>
-          <!--<router-nav/><router-view/>-->
-          <!--<vue-tree-navigation :items="items" :defaultOpenLevel="defaultOpenLevel" />-->
+        <v-container fluid fill-height>
+          <v-layout
+          >
+            <!--<v-layout-->
+              <!--justify-center-->
+              <!--align-center-->
+            <!--&gt;-->
+            <!--<v-tooltip right>-->
+              <!--<v-btn icon large :href="source" target="_blank" slot="activator">-->
+                <router-view/>
+                <!--<v-icon large>code</v-icon>-->
+              <!--</v-btn>-->
+              <!--<span>Source</span>-->
+            <!--</v-tooltip>-->
+          </v-layout>
         </v-container>
       </v-content>
-      <v-footer app></v-footer>
+      <v-footer color="indigo" app>
+        <span class="white--text">&copy; 2018</span>
+      </v-footer>
     </v-app>
-
-
-
     <!--<v-app :dark="true">-->
       <!--<v-navigation-drawer app>-->
         <!--<router-link class="list-group-item" to="/">Hello World</router-link>-->
@@ -33,14 +81,20 @@
       <!--</v-content>-->
       <!--<v-footer app></v-footer>-->
     <!--</v-app>-->
-    <img src="./assets/logo.png">
+    <!--<img src="./assets/logo.png">-->
     <!--<router-view/>-->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data: () => ({
+    drawer: null
+  }),
+  props: {
+    source: String
+  },
   // data() {
   //   return {
   //     items: [
@@ -55,6 +109,15 @@ export default {
   //     defaultOpenLevel: 1
   //   }
   // }
+  methods:
+    {
+      routeToGo: function (route) {
+        // console.log('test')
+        // this.$route.path = route
+        this.$router.push({path: route, params: { }})
+        // <router-link class="list-group-item" to="/">Hello World</router-link>
+      }
+    }
 }
 </script>
 
