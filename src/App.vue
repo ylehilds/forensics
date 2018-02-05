@@ -44,10 +44,18 @@
           </v-list-tile>
           <v-list-tile v-on:click="routeToGo('WindowsForensics')">
             <v-list-tile-action>
-              <v-icon>search</v-icon>
+              <v-icon>laptop_windows</v-icon>
             </v-list-tile-action>
             <v-list-tile-content>
               <v-list-tile-title>Windows Forensics</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile v-on:click="routeToGo('LinuxForensics')">
+            <v-list-tile-action>
+              <v-icon>laptop_chromebook</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Linux Forensics</v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
         </v-list>

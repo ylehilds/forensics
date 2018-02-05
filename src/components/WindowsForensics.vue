@@ -8,8 +8,15 @@
         <!--</v-card-media>-->
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+            <h3 class="headline mb-0">Ncat</h3>
+            <!--<div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>-->
+            <!--<div>Name</div>-->
+            <br />
+            <div>Description</div>
+            <div>Personal review</div>
+            <div>Personal notes on usage</div>
+            <div>Source URL</div>
+            <div>Local Source</div>
           </div>
         </v-card-title>
         <!--<v-card-actions>-->

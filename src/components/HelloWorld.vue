@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Navigate on the Menu on the left!</h1>
+    <h1>Welcome to My Personal Digital Forensics Reference Tool! <br /> Navigate on the Menu on the left to change categories</h1>
   </div>
 </template>
 

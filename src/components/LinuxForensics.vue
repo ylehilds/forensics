@@ -1,16 +1,14 @@
 <template>
   <!--<v-flex xs12 sm6 offset-sm3>-->
   <div>
-    <h1>Packet Analysis Forensics</h1>
-    <br />
-
+    <h1>Linux Forensics</h1>
     <v-flex>
       <v-card>
         <!--<v-card-media src="/static/doc-images/cards/desert.jpg" height="200px">-->
         <!--</v-card-media>-->
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Wireshark</h3>
+            <h3 class="headline mb-0">Netcat</h3>
             <!--<div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>-->
             <!--<div>Name</div>-->
             <br />
@@ -32,7 +30,7 @@
 
 <script>
 export default {
-  name: 'PacketAnalysis',
+  name: 'WindowsForensics',
   data () {
     return {
       // msg: 'Welcome to Packet Analysis view',
