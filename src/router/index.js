@@ -9,12 +9,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
+      name: 'Hello World',
       component: HelloWorld
     },
     {
       path: '/packetAnalysis',
-      name: 'PacketAnalysis',
+      name: 'Packet Analysis',
       component: PacketAnalysis
     }
   ]
