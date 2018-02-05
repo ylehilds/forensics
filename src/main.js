@@ -3,7 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import RouterNav from 'vue-router-nav'
+import VueTreeNavigation from 'vue-tree-navigation';
 
+Vue.use(RouterNav)
+Vue.use(VueTreeNavigation)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
