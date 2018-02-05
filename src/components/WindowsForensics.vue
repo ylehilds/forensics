@@ -1,8 +1,7 @@
 <template>
   <!--<v-flex xs12 sm6 offset-sm3>-->
   <div>
-    <h1>Packet Analysis Forensics</h1>
-
+    <h1>Windows Forensics</h1>
     <v-flex>
       <v-card>
         <!--<v-card-media src="/static/doc-images/cards/desert.jpg" height="200px">-->
@@ -24,7 +23,7 @@
 
 <script>
 export default {
-  name: 'PacketAnalysis',
+  name: 'WindowsForensics',
   data () {
     return {
       // msg: 'Welcome to Packet Analysis view',

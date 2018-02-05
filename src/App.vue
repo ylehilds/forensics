@@ -42,6 +42,14 @@
               <v-list-tile-title>Packet Analysis</v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
+          <v-list-tile v-on:click="routeToGo('WindowsForensics')">
+            <v-list-tile-action>
+              <v-icon>search</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Windows Forensics</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
         </v-list>
       </v-navigation-drawer>
       <v-toolbar color="indigo" dark fixed app>
