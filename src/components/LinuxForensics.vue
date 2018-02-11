@@ -87,7 +87,7 @@
             <br />
             <div><span><b>Description: </b> Get Current network connections</span> </div>
             <div><span><b>Personal review: </b> Netstat is the tool to get network info</span> </div>
-            <div><span><b>Personal notes on usage: </b> netstat -an | nc &lt;ip_address&gt; &lt;port&gt;</span> </div>
+            <div><span><b>Personal notes on usage: </b> netstat -anp | nc &lt;ip_address&gt; &lt;port&gt;</span> </div>
             <div><span><b>Source URL:</b> N/A</span> </div>
             <div><span><b>Local Source: </b>Included in OS</span> </div>
           </div>
@@ -104,7 +104,7 @@
             <br />
             <div><span><b>Description: </b> Get Open TCP and UDP ports (Listening)</span> </div>
             <div><span><b>Personal review: </b> Netstat is the tool to get network info</span> </div>
-            <div><span><b>Personal notes on usage: </b>netstat -an | grep "LISTEN" |nc &lt;ip_address&gt; &lt;port&gt;</span> </div>
+            <div><span><b>Personal notes on usage: </b>netstat -anp | grep "LISTEN" |nc &lt;ip_address&gt; &lt;port&gt;</span> </div>
             <div><span><b>Source URL: </b>N/A</span> </div>
             <div><span><b>Local Source: </b>Included in OS</span> </div>
           </div>
