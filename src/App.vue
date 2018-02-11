@@ -62,7 +62,7 @@
       </v-navigation-drawer>
       <v-toolbar color="indigo" dark fixed app>
         <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-        <v-toolbar-title>IT566 - Digital Forensics</v-toolbar-title>
+        <v-toolbar-title>IT566 Digital Forensics Resource Database</v-toolbar-title>
       </v-toolbar>
       <v-content>
         <v-container fluid fill-height>
@@ -83,7 +83,7 @@
         </v-container>
       </v-content>
       <v-footer color="indigo" app>
-        <span class="white--text">&copy; 2018</span>
+        <span class="white--text">&copy; IT566 - Digital Forensics Resource Database - Lehi Alcantara - 2018</span>
       </v-footer>
     </v-app>
     <!--<v-app :dark="true">-->
