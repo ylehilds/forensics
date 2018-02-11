@@ -355,10 +355,10 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">System Date and Time</h3>
+            <h3 class="headline mb-0">System Date and Time (date)</h3>
             <br />
             <div><span><b>Description: </b>Get System Date and Time</span> </div>
-            <div><span><b>Personal review: </b>Great too to get System Date and Time</span> </div>
+            <div><span><b>Personal review: </b>Great tool to get System Date and Time</span> </div>
             <div><span><b>Personal notes on usage: </b>date | nc &lt;ip_address&gt; &lt;port&gt;</span> </div>
             <div><span><b>Source URL: </b>N/A</span> </div>
             <div><span><b>Local Source: </b>Included in OS</span> </div>
