@@ -102,7 +102,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Current network connections</h3>
+            <h3 class="headline mb-0">Current network connections (Netstat)</h3>
             <br />
             <div><span><b>Description: </b> Get Current network connections</span> </div>
             <div><span><b>Personal review: </b> Netstat is the tool to get network info</span> </div>
@@ -119,7 +119,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Open TCP and UDP ports (Listening)</h3>
+            <h3 class="headline mb-0">Open TCP and UDP ports (Listening) (Netstat)</h3>
             <br />
             <div><span><b>Description: </b> Get Open TCP and UDP ports (Listening)</span> </div>
             <div><span><b>Personal review: </b> Netstat is the tool to get network info</span> </div>
@@ -136,7 +136,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Internal Routing Table</h3>
+            <h3 class="headline mb-0">Internal Routing Table (Netstat)</h3>
             <br />
             <div><span><b>Description: </b>Get Internal Routing Table</span> </div>
             <div><span><b>Personal review: </b>great tool to get routing table</span> </div>
@@ -153,7 +153,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Running Processes</h3>
+            <h3 class="headline mb-0">Running Processes (PsList)</h3>
             <br />
             <div><span><b>Description: </b> Get Running Processes</span> </div>
             <div><span><b>Personal review: </b>Great tool to get Running Processes</span> </div>
@@ -170,7 +170,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Running Services</h3>
+            <h3 class="headline mb-0">Running Services (PsService)</h3>
             <br />
             <div><span><b>Description: </b>Get Running Services</span> </div>
             <div><span><b>Personal review: </b>Great tool to get running services</span> </div>
@@ -187,7 +187,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Executables Connected to Active Connections</h3>
+            <h3 class="headline mb-0">Executables Connected to Active Connections (Fport)</h3>
             <br />
             <div><span><b>Description: </b>Get Executables Connected to Active Connections</span> </div>
             <div><span><b>Personal review: </b> Great tool to get Executables Connected to Active Connections</span> </div>
@@ -204,7 +204,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Executables Connected to Listening ports</h3>
+            <h3 class="headline mb-0">Executables Connected to Listening ports (Netstat)</h3>
             <br />
             <div><span><b>Description: </b>Get Executables Connected to Listening ports</span> </div>
             <div><span><b>Personal review: </b>Great tool to get Executables Connected to Listening ports</span> </div>
@@ -221,7 +221,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Local open files and associated processes</h3>
+            <h3 class="headline mb-0">Local open files and associated processes (PsFile)</h3>
             <br />
             <div><span><b>Description: </b> Get Local open files and associated processes</span> </div>
             <div><span><b>Personal review: </b> great tool to get local open files and associated processes</span> </div>
@@ -238,7 +238,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Find the file systems mounted</h3>
+            <h3 class="headline mb-0">Find the file systems mounted (Wmic)</h3>
             <br />
             <div><span><b>Description: </b> Finding the file systems mounted</span> </div>
             <div><span><b>Personal review: </b> great tool to find current file systems mounted</span> </div>
@@ -255,7 +255,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Remote open files and associated processes</h3>
+            <h3 class="headline mb-0">Remote open files and associated processes (PsFile)</h3>
             <br />
             <div><span><b>Description: </b> Get Remote open files and associated processes</span> </div>
             <div><span><b>Personal review: </b> great tool to get remote open files and associated processes</span> </div>
@@ -272,7 +272,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">User logged on</h3>
+            <h3 class="headline mb-0">User logged on (PsLoggedOn)</h3>
             <br />
             <div><span><b>Description: </b> Get User logged on</span> </div>
             <div><span><b>Personal review: </b> great tool to get current users logged in</span> </div>
@@ -289,7 +289,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Scheduled Jobs</h3>
+            <h3 class="headline mb-0">Scheduled Jobs (At)</h3>
             <br />
             <div><span><b>Description: </b>Get Scheduled Jobs</span> </div>
             <div><span><b>Personal review: </b>Great tool to get scheduled jobs</span> </div>
@@ -306,7 +306,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">System information</h3>
+            <h3 class="headline mb-0">System information (PsInfo)</h3>
             <br />
             <div><span><b>Description: </b>Get System information</span> </div>
             <div><span><b>Personal review: </b>Great tool to get System Information</span> </div>
@@ -323,7 +323,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">IP and MAC addresses</h3>
+            <h3 class="headline mb-0">IP and MAC addresses (IpConfig)</h3>
             <br />
             <div><span><b>Description: </b>Get IP and MAC addresses</span> </div>
             <div><span><b>Personal review: </b>Great tool to get IP and MAC addresses</span> </div>
@@ -340,7 +340,7 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">System Date and Time</h3>
+            <h3 class="headline mb-0">System Date and Time (Date)</h3>
             <br />
             <div><span><b>Description: </b>Get System Date and Time</span> </div>
             <div><span><b>Personal review: </b>Great too to get System Date and Time</span> </div>
