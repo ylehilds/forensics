@@ -21,7 +21,7 @@
             Command | nc forensic_workstation_ip &lt;Port&gt;
             </pre>
             </span> </div>
-            <div><span><b>Source URL: <a href="https://netsec.ws/?p=292">https://netsec.ws/?p=292</a> </b></span> </div>
+            <div><span><b>Source URL: <a target="_blank" href="https://netsec.ws/?p=292">https://netsec.ws/?p=292</a> </b></span> </div>
             <div><span><b>Local Source: </b>Included in OS</span> </div>
           </div>
         </v-card-title>

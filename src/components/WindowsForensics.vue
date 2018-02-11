@@ -23,7 +23,7 @@
 
             Command | nc forensic_workstation_ip &lt;Port&gt;</pre>
             </span></div>
-            <div><span><b>Source URL:  <a href="https://nmap.org/ncat">https://nmap.org/ncat</a></b></span></div>
+            <div><span><b>Source URL:  <a target="_blank" href="https://nmap.org/ncat">https://nmap.org/ncat</a></b></span></div>
             <div><span><b>Local Source: N/A</b></span></div>
           </div>
         </v-card-title>
@@ -54,7 +54,7 @@
             Command | nc forensic_workstation_ip &lt;Port&gt;
             </pre>
             </span> </div>
-            <div><span><b>Source URL: <a href="https://joncraton.org/blog/46/netcat-for-windows/">https://joncraton.org/blog/46/netcat-for-windows/</a> </b></span> </div>
+            <div><span><b>Source URL: <a target="_blank" href="https://joncraton.org/blog/46/netcat-for-windows/">https://joncraton.org/blog/46/netcat-for-windows/</a> </b></span> </div>
             <div><span><b>Local Source: N/A</b></span> </div>
           </div>
         </v-card-title>
@@ -90,7 +90,7 @@
             <div><span><b>Description: </b>Process memory tool, To get process memory dumps used userdump tool from Microsoft</span> </div>
             <div><span><b>Personal review: </b>Great tool to generate process memory dump</span> </div>
             <div><span><b>Personal notes on usage:</b>Userdump &lt;PID&gt; &lt;FileName&gt;.dmp</span> </div>
-            <div><span><b>Source URL: <a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=4060">https://www.microsoft.com/en-us/download/confirmation.aspx?id=4060</a></b></span> </div>
+            <div><span><b>Source URL: <a target="_blank" href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=4060">https://www.microsoft.com/en-us/download/confirmation.aspx?id=4060</a></b></span> </div>
             <div><span><b>Local Source: </b> N/A</span> </div>
           </div>
         </v-card-title>
@@ -192,7 +192,7 @@
             <div><span><b>Description: </b>Get Executables Connected to Active Connections</span> </div>
             <div><span><b>Personal review: </b> Great tool to get Executables Connected to Active Connections</span> </div>
             <div><span><b>Personal notes on usage: </b> Fport | nc &lt;ip_address&gt; &lt;port&gt;</span> </div>
-            <div><span><b>Source URL: </b><a href="https://www.mcafee.com/sg/downloads/free-tools/fport.aspx">https://www.mcafee.com/sg/downloads/free-tools/fport.aspx</a></span> </div>
+            <div><span><b>Source URL: </b><a target="_blank" href="https://www.mcafee.com/sg/downloads/free-tools/fport.aspx">https://www.mcafee.com/sg/downloads/free-tools/fport.aspx</a></span> </div>
             <div><span><b>Local Source: </b>N/A</span> </div>
           </div>
         </v-card-title>
