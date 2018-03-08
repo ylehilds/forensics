@@ -51,7 +51,7 @@
             <br />
             <div><span><b>Description: </b>comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis.</span> </div>
             <div><span><b>Personal review: </b>Good tool to analyze network packets</span> </div>
-            <div><span><b>Personal notes on usage: </b> Open ettercap GUI File > Open > (choose the network capture file) > Views > Connections</span> </div>
+            <div><span><b>Personal notes on usage: </b> Open ettercap GUI > File > Open > (choose the network capture file) > Views > Connections then you can filter by ip address using the "host Filter" text area, or protocol filter or connection state filter.</span> </div>
             <div><b>Source URL:</b> <a href="http://www.ettercap-project.org/ettercap/" target="_blank">http://www.ettercap-project.org/ettercap/</a></div>
             <div><span><b>Local Source: </b> N/A</span> </div>
           </div>
