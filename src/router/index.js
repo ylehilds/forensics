@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import PacketAnalysis from '@/components/PacketAnalysis'
 import WindowsForensics from '@/components/WindowsForensics'
 import LinuxForensics from '@/components/LinuxForensics'
+import NetworkForensics from '@/components/NetworkForensics'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/linuxForensics',
       name: 'Linux Forensics',
       component: LinuxForensics
+    },
+    {
+      path: '/NetworkForensics',
+      name: 'Network Forensics',
+      component: NetworkForensics
     }
   ]
 })
