@@ -31,10 +31,10 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Microsoft Massage Analyzer</h3>
+            <h3 class="headline mb-0">Microsoft Message Analyzer</h3>
             <br />
             <div><span><b>Description:</b></span> <span>Great Network Protocol analyzer</span></div>
-            <div><b>Personal review:</b> It is a great GUI tool to both capture and to analyse network packets, it is the leader on network packet analysis.</div>
+            <div><b>Personal review:</b> It is a great GUI tool to both capture and to analyse network packets. I really liked it, right up there with Wireshark</div>
             <div><b>Personal notes on usage:</b> Open Message Analyzer, select the network adapter to observe, capture the network traffic, save to a file, you can add display filter expressions as to target the packets of interest and ports, for example "*address == 192.168.1.1 tcp.port == 80"</div>
             <div><b>Source URL:</b> <a href="https://www.microsoft.com/en-us/download/details.aspx?id=44226" target="_blank">https://www.microsoft.com/en-us/download/details.aspx?id=44226</a></div>
             <div><b>Local Source: </b> N/A</div>
