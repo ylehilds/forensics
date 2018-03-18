@@ -63,7 +63,7 @@
 
 <script>
 export default {
-  name: 'WindowsForensics',
+  name: 'NetworkForensics',
   data () {
     return {
       // msg: 'Welcome to Packet Analysis view',

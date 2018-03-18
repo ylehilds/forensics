@@ -66,6 +66,30 @@
               <v-list-tile-title>Network Forensics</v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
+          <v-list-tile v-on:click="routeToGo('WindowsIntrusion')">
+            <v-list-tile-action>
+              <v-icon>desktop_windows</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Windows Intrusion</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile v-on:click="routeToGo('LinuxIntrusion')">
+            <v-list-tile-action>
+              <v-icon>desktop_mac</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Linux Intrusion</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile v-on:click="routeToGo('MediaAnalysis')">
+            <v-list-tile-action>
+              <v-icon>sd_storage</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Media Analysis</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
         </v-list>
       </v-navigation-drawer>
       <v-toolbar color="indigo" dark fixed app>

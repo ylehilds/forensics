@@ -5,6 +5,9 @@ import PacketAnalysis from '@/components/PacketAnalysis'
 import WindowsForensics from '@/components/WindowsForensics'
 import LinuxForensics from '@/components/LinuxForensics'
 import NetworkForensics from '@/components/NetworkForensics'
+import WindowsIntrusion from '@/components/WindowsIntrusion'
+import LinuxIntrusion from '@/components/LinuxIntrusion'
+import MediaAnalysis from '@/components/MediaAnalysis'
 
 Vue.use(Router)
 
@@ -34,6 +37,21 @@ export default new Router({
       path: '/NetworkForensics',
       name: 'Network Forensics',
       component: NetworkForensics
+    },
+    {
+      path: '/WindowsIntrusion',
+      name: 'Windows Intrusion',
+      component: WindowsIntrusion
+    },
+    {
+      path: '/LinuxIntrusion',
+      name: 'Linux Intrusion',
+      component: LinuxIntrusion
+    },
+    {
+      path: '/MediaAnalysis',
+      name: 'Media Analysis',
+      component: MediaAnalysis
     }
   ]
 })
