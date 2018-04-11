@@ -43,8 +43,8 @@
             <h3 class="headline mb-0">FTK</h3>
             <br />
             <div><span><b>Description:</b></span> <span>conduct faster searches and dramatically increase analysis speed with FTK®, the purpose-built solution that interoperates with mobile device and e-discovery technology. Powerful and proven, FTK processes and indexes data upfront, eliminating wasted time waiting for searches to execute. No matter how many different data sources you’re dealing with or the amount of data you have to cull through, FTK gets you there quicker and better than anything else.</span></div>
-            <div><b>Personal review:</b>It is a great and most recognized Forensics tool in the field.</div>
-            <div><b>Personal notes on usage:</b>This is a fantastic tool, it is a commercial tool, It finds artifacts quickly and faster than any other tool I've used."</div>
+            <div><b>Personal review:</b>It is a great and most recognized Forensics tool in the field. This is a fantastic tool, it is a commercial tool, It finds artifacts quickly and faster than any other tool I've used.</div>
+            <div><b>Personal notes on usage:</b>Open FTK, Create a new case and Add image evidence or files for analysis</div>
             <div><b>Source URL:</b> <a href="https://accessdata.com/products-services/forensic-toolkit-ftk" target="_blank">https://accessdata.com/products-services/forensic-toolkit-ftk</a></div>
             <div><b>Local Source: </b> N/A</div>
           </div>

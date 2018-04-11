@@ -9,7 +9,7 @@
             <h3 class="headline mb-0">MPE+</h3>
             <br />
             <div><span><b>Description:</b></span> <span>Used for mobile forensics.</span></div>
-            <div><b>Personal notes on usage:</b>You need to have a valid FTK license in order to use this additional software.</div>
+            <div><b>Personal notes on usage:</b>You need to have a valid FTK license in order to use this additional software. Connect your smartphone via usb, select the phone that best matches it. Then perform analysis, once analysis is done you can create reports and save data in an image that can be later opened by MPE+</div>
             <div><b>Personal review:</b>it is a great tool and I have found many data using this software.</div>
             <div><b>Source URL:</b> <a href="https://accessdata.com/product-download/mpe" target="_blank">https://accessdata.com/product-download/mpe</a></div>
             <div><b>Local Source: </b> N/A</div>
@@ -26,8 +26,8 @@
             <h3 class="headline mb-0">ADB</h3>
             <br />
             <div><span><b>Description:</b></span> <span>Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a device. The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device.</span></div>
-            <div><b>Personal review:</b> It is a great tool to gather android smart phone information.</div>
-            <div><b>Personal notes on usage:</b> It is normally installed during the Android SDK installation, this is a must tool to have while analyzing android."</div>
+            <div><b>Personal review:</b> It is a great tool to gather android smart phone information. It is normally installed during the Android SDK installation, this is a must tool to have while analyzing android.</div>
+            <div><b>Personal notes on usage:</b> Command line tool, just type 'adb devices -l', to see a list of devices connected. 'adb shell' to get a shell command prompt. Refer to documentation for all commands.</div>
             <div><b>Source URL:</b> <a href="https://developer.android.com/studio/command-line/adb.html" target="_blank">https://developer.android.com/studio/command-line/adb.html</a></div>
             <div><b>Local Source: </b> N/A</div>
           </div>
