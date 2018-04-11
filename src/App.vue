@@ -90,6 +90,22 @@
               <v-list-tile-title>Media Analysis</v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
+          <v-list-tile v-on:click="routeToGo('FileSystemAnalysis')">
+            <v-list-tile-action>
+              <v-icon>devices_other</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>File System Analysis</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile v-on:click="routeToGo('MobileForensics')">
+            <v-list-tile-action>
+              <v-icon>tablet_android</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Mobile Forensics</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
         </v-list>
       </v-navigation-drawer>
       <v-toolbar color="indigo" dark fixed app>

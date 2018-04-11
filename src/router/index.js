@@ -8,6 +8,8 @@ import NetworkForensics from '@/components/NetworkForensics'
 import WindowsIntrusion from '@/components/WindowsIntrusion'
 import LinuxIntrusion from '@/components/LinuxIntrusion'
 import MediaAnalysis from '@/components/MediaAnalysis'
+import FileSystemAnalysis from '@/components/FileSystemAnalysis'
+import MobileForensics from '@/components/MobileForensics'
 
 Vue.use(Router)
 
@@ -52,6 +54,16 @@ export default new Router({
       path: '/MediaAnalysis',
       name: 'Media Analysis',
       component: MediaAnalysis
+    },
+    {
+      path: '/FileSystemAnalysis',
+      name: 'File System Analysis',
+      component: FileSystemAnalysis
+    },
+    {
+      path: '/MobileForensics',
+      name: 'Mobile Forensics',
+      component: MobileForensics
     }
   ]
 })
